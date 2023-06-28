@@ -1,0 +1,98 @@
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        margin-left: 2vh;
+    }
+
+    .nav-link {
+        margin-left: 5vh;
+    }
+
+    .content {
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+    }
+
+    .card {
+        background-image: linear-gradient(to left, #6cd3fe , #0f41aa);
+        color: white;
+    }
+
+    .card-database {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .contact {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        background-color: darkgrey;
+    }
+
+    .contact > h3{
+        color: white;
+    }
+
+    .contact > a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .contact > p {
+        color: white;
+    }
+
+    .contact-wa {
+        max-width: 5%;
+        height: auto;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .navbar-brand {
+        margin-left: 3vh;
+    } 
+
+    .content {
+        padding-top: 15vh;
+        padding-bottom: 10vh;
+    }
+
+    .content > h1 {
+        padding-bottom: 2vh;
+    }
+
+    .card {
+        background-image: linear-gradient(to left, #6cd3fe , #0f41aa);
+        color: white;
+    }
+
+    .card-database {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .contact {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        background-color: darkgrey;
+    }
+
+    .contact > h3{
+        color: white;
+    }
+
+    .contact > a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .contact > p {
+        color: white;
+    }
+
+    .contact-wa {
+        max-width: 3%;
+        height: auto;
+    }
+}

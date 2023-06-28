@@ -1,0 +1,140 @@
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        margin-left: 2vh;
+    }
+
+    .nav-link {
+        margin-left: 5vh;
+    }
+
+    .welcome {
+        padding-top: 20vh;
+        padding-bottom: 10vh;
+        background-image: url("/image/background.jpg");
+        background-size: cover;
+        color: white;
+        font-size: 3vh;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .content {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    .marketing {
+        padding-top: 3vh;
+    }
+
+    .mob-database {
+        margin-left: 1vh;
+    }
+
+    .mob-database > img {
+        max-width: 110%;
+        height: auto;
+    }
+
+    .mob-product > h1, p {
+        font-size: 110%;
+    }
+
+    .marketing {
+        padding-bottom: 10vh;
+    }
+
+    .marketing > h1 {
+        padding-bottom: 2vh;
+    }
+
+    .market {
+        background-image: linear-gradient(to left, #6cd3fe , #0f41aa);
+        color: white;
+        margin-bottom: 3vh;
+    }
+
+    .contact {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        background-color: darkgrey;
+    }
+
+    .contact > h3{
+        color: white;
+    }
+
+    .contact > a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .contact > p {
+        color: white;
+    }
+
+    .contact-wa {
+        max-width: 5%;
+        height: auto;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .navbar-brand {
+        margin-left: 3vh;
+    }  
+
+    .welcome {
+        padding: 10vh;
+        padding-top: 32vh;
+        padding-bottom: 20vh;
+        background-image: url("/image/background.jpg");
+        background-size: cover;
+        color: white;
+        font-size: 5vh;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .content {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .marketing {
+        padding-top: 3vh;
+        padding-bottom: 10vh;
+    }
+
+    .market {
+        background-image: linear-gradient(to left, #6cd3fe , #0f41aa);
+        color: white;
+    }
+
+    .marketing > h1 {
+        padding-bottom: 2vh;
+    }
+
+    .contact {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        background-color: darkgrey;
+    }
+
+    .contact > h3{
+        color: white;
+    }
+
+    .contact > a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .contact > p {
+        color: white;
+    }
+
+    .contact-wa {
+        max-width: 3%;
+        height: auto;
+    }
+}
