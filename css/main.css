@@ -17,6 +17,25 @@
         text-shadow: 2px 2px 4px #000000;
     }
 
+    .about-us {
+        padding-top: 8vh;
+        padding-bottom: 5vh;
+    }
+
+    .article > h1 {
+        padding-bottom: 3vh;
+    }
+
+    .article-img {
+        max-width: 50vh;
+        height: auto;
+        padding-bottom: 5vh;
+    }
+
+    .article-text {
+        text-align: center;
+    }
+
     .content {
         padding-top: 10vh;
         padding-bottom: 10vh;
@@ -93,6 +112,32 @@
         color: white;
         font-size: 5vh;
         text-shadow: 2px 2px 4px #000000;
+    }
+
+    .about-us {
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+    }
+
+    .about-us > p {
+        font-size: 3vh;
+    }
+
+    .article > h1 {
+        padding-bottom: 4vh;
+    }
+
+    .article-img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    .article-text {
+        font-size: 3vh;
+    }
+
+    .mob-product > p {
+        font-size: 4vh;
     }
 
     .content {
